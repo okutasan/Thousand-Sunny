@@ -1,0 +1,68 @@
+body {
+  margin: 5px 100px;
+  
+}
+
+      .header {
+      border-radius: 2px;
+      background-color:tomato;
+      text-align: center;
+      padding: 20px;
+}
+
+      /* Style the top navigation bar */
+.topnav {
+    overflow:auto;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 10px;
+}
+
+/* Kolom Side Kiri dan kanan */
+.column.side{
+  width: 25%;
+}
+/* Kolom bagian tengah */
+.column.mid{
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Layout untuk Footer */
+.footer{
+  background-color:tomato;
+  text-align: center;
+  padding: 10px;
+}
