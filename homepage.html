@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+body {
+  margin: 5px 100px;
+  
+}
+
+      .header {
+      border-radius: 2px;
+      background-color:tomato;
+      text-align: center;
+      padding: 20px;
+}
+
+      /* Style the top navigation bar */
+.topnav {
+    overflow:auto;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 10px;
+}
+
+/* Kolom Side Kiri dan kanan */
+.column.side{
+  width: 25%;
+}
+/* Kolom bagian tengah */
+.column.mid{
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Layout untuk Footer */
+.footer{
+  background-color:tomato;
+  text-align: center;
+  padding: 10px;
+}
+    </style>
+    <meta charset="utf-8" />
+    <title>Thousand Sunny Course</title>
+  </head>
+<!-- END CSS -->
+  <body>
+
+  <!-- Mulai Header -->
+    <div class="header">
+      <h1 align=center >Sunny Course</h1>
+      <!-- <center>
+        <img src="images/image3.jpg" width="1000px"/ >
+      </center> -->
+    </div>
+
+    <!-- Menu Navbar -->
+    <div class="topnav">
+      <a href="#">Beranda</a>
+      <a href="#">Kursus</a>
+      <a href="#">Kontak</a>
+    </div>
+    <!-- END Navbar -->
+
+    <!-- Mulai section -->
+    <div class="row">
+      <div class="column side">
+          <h2>Sidebar Kiri</h2>
+          <!-- Aside  -->
+            <aside>
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+              </ul>
+            </aside>
+      </div>
+
+      <div class="column mid">
+          <h2>Artikel Utama</h2>
+          <img src="images/image4.png" alt="HTML5 Icon" width="540" height="250">
+          <p>E-learning adalah suatu sistem atau konsep pendidikan yang memanfaatkan teknologi informasi dalam proses belajar mengajar. Berikut beberapa pengertian E-learning dari berbagai sumber:
+              
+                  <br>1. Pembelajaran yang disusun dengan tujuan menggunakan sistem elektronik atau komputer sehingga mampu mendukung proses pembelajaran (Michael, 2013:27). 
+                  <br>2. Proses pembelajaran jarak jauh dengan menggabungkan prinsip-prinsip dalam proses pembelajaran dengan teknologi (Chandrawati, 2010).
+                  <br>3. Sistem pembelajaran yang digunakan sebagai sarana untuk proses belajar mengajar yang dilaksanakan tanpa harus bertatap muka secara langsung antara guru dengan siswa (Ardiansyah, 2013).
+              </p>
+      </div>
+      <div class="column side">
+        <h2>Sidebar Kanan</h2>
+        <p>Isi didebar kanan .... </p>
+      </div>
+    </div>
+
+    <!-- Mulai Footer -->
+    <div class="footer">
+      <p>Footer - Copyright Thousand Sunny 2017 </p>
+    </div>
+  </body>
+</html>
