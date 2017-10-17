@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    margin: 0;
+    margin: 2%;
 }
 
 .header-text {
@@ -16,7 +16,7 @@ body, html {
 /* The hero image */
 .header-image {
     background-image: url("../images/image3.jpg");
-    height: 30%;
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,11 +53,11 @@ body, html {
 
 /* Kolom Side Kiri dan kanan */
 .column.side{
-  width: 22%;
+  width: 25%;
 }
 /* Kolom bagian tengah */
 .column.mid{
-  width: 55%;
+  width: 75%;
 }
 
 /* Clear floats after the columns */
@@ -75,9 +75,9 @@ body, html {
 
 .post {
     border: 1px solid #333;
-    padding: 15px;
-    margin: 5px;
-    border-radius: 5px;
+    padding: 10px 10px 90px 7px;
+    margin: 5px 3px 2px 3px;
+    border-radius: 3px;
 }
 
 .sidebar {
