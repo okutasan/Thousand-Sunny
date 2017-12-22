@@ -18,9 +18,7 @@
 
     <!-- Menu Navbar -->
     <div class="topnav">
-      <a href="homepage.html">Beranda</a>
-      <a href="src/daftar.html">Daftar</a>
-      <a href="src/login.html">Login</a>
+      <a href="index.php">Beranda</a>
 
     </div>
     <!-- END Navbar -->

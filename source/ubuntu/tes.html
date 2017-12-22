@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Thousand Sunny Course</title>
+      <link rel="stylesheet" href="../../css/sunny.css">
+      <style>
+      .quis {
+            width: 750px;
+            padding: 2px 5px 10px 20px;
+            border: 0px solid gray;
+            margin: 20px 0px 0px 30px;
+            background-color: #f1f1f1
+        }
+      </style>
+    </head>
+  <body>
+
+  <!-- Mulai Header -->
+  <div class="header-image">
+      <div class="header-text">
+        <h1 style="font-size:50px">Sunny Course</h1>
+        <p>Web Kursus Online</p>
+      </div>
+    </div>
+
+    <!-- Menu Navbar -->
+    <div class="topnav">
+            <a href="../../index.php">Beranda</a>
+
+    </div>
+    <!-- END Navbar -->
+
+    <!-- MULAI CONTENT -->
+    <div class="row">
+            <div class="column left">
+                <div class="map">
+                        <h3>Materi Kursus Dasar Ubuntu</h3>
+                        <div class="vertical-menu">
+                            <a href="ubuntu1.html">Pengenalan</a>
+                            <a href="ubuntu2.html">Instalasi Ubuntu</a>
+                            <a href="ubuntu3.html">Perintah Dasar</a>
+                            <a href="tes.html"  class="active">Test</a>
+                        </div>
+                </div>
+                  
+            </div>
+            
+            <div class="column right">
+              <div class="post">
+                    <h2 style="margin:17px 10px 10px 10px; text-align:center;">Tes Ubuntu Dasar</h2>
+                  
+                    <div class="quis">
+                        <form action="hasil.php" method="post" id="quiz">
+                            <ol>
+                                <li>
+                                <h3>Ubuntu adalah turunan distro ?</h3>
+                                    <input type="radio" name="1" value="A" checked>Debian<br>
+                                    <input type="radio" name="1" value="B" checked>Fedora<br>
+                                    <input type="radio" name="1" value="C" checked>Redhat<br>
+                                </li>
+
+                                <li>
+                                <h3>Software virtualisasi salah satunya adalah ?</h3>
+                                    <input type="radio" name="2" value="A" checked>SMADAV<br>
+                                    <input type="radio" name="2" value="B" checked>Windows<br>
+                                    <input type="radio" name="2" value="C" checked>VirtualBox<br>
+                                </li>
+
+                                <li>
+                                <h3>perintah mkdir digunakan untuk ?</h3>
+                                    <input type="radio" name="3" value="A" checked>Membersihkan layar terminal<br>
+                                    <input type="radio" name="3" value="B" checked>Membuat direktori baru<br>
+                                    <input type="radio" name="3" value="C" checked>Masuk ke dalam direktori<br>
+                                </li>
+                            </ol>
+                            <input class="button" type="submit" value="Submit">
+                        </form>
+                    </div>
+              </div>  
+            </div>
+          </div>
+
+    <!-- Mulai Footer -->
+    <div class="footer">
+      <p style="color:white">Footer - Copyright Thousand Sunny 2017 </p>
+    </div>
+  </body>
+</html>
